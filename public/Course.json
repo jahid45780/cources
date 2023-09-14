@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "cover": "https://i.ibb.co/g4hSGyn/Rectangle-2-2.png",
+        "title": "Introduction to C Programming",
+        "description": "C is a general-purpos language in the field of computer science.",
+        "price_img": "$",
+        "price": 1500,
+        "book_img": "https://i.ibb.co/rcRncGj/book-icon-template-black-color-editable-book-icon-symbol-flat-illustration-for-graphic-and-web-desig.jpg",
+        "credit": 1
+    },
+    {
+        "id": 2,
+        "cover": "https://i.ibb.co/mySD0pk/Rectangle-2-3.png",
+        "title": "Introduction to Algorithms",
+        "description": "  As an educator and research  textbook that I have ever seen on this subject ",
+        "price_img": "$",
+        "price": 2500,
+        "book_img": "https://i.ibb.co/rcRncGj/book-icon-template-black-color-editable-book-icon-symbol-flat-illustration-for-graphic-and-web-desig.jpg",
+        "credit": 2
+    },
+    {
+        "id": 3,
+        "cover": "https://i.ibb.co/NpR16tQ/Rectangle-2-4.png",
+        "title": "Introduction to C++ for DSA",
+        "description": " C++ is and offers the highest-paying jobs with an pay of $103,035 per year. ",
+        "price_img": "$",
+        "price": 4000,
+        "book_img": "https://i.ibb.co/rcRncGj/book-icon-template-black-color-editable-book-icon-symbol-flat-illustration-for-graphic-and-web-desig.jpg",
+        "credit": 3
+    },
+    {
+        "id": 4,
+        "cover": "https://i.ibb.co/Jrj4GcZ/Rectangle-3.png",
+        "title": "Basic Data Structures",
+        "description": "Data type is a was integer, string, etc. which  corresponding type of data ",
+        "price_img": "$",
+        "price": 5000,
+        "book_img": "https://i.ibb.co/rcRncGj/book-icon-template-black-color-editable-book-icon-symbol-flat-illustration-for-graphic-and-web-desig.jpg",
+        "credit": 2
+    },
+    {
+        "id": 5,
+        "cover": "https://i.ibb.co/cDXkgzX/Rectangle-2.png",
+        "title": "Introduction to OOP Python",
+        "description": "In Python, object-oriented Programming (OOPs)  use etc. in the programming",
+        "price_img": "$",
+        "price": 3500,
+        "book_img": "https://i.ibb.co/rcRncGj/book-icon-template-black-color-editable-book-icon-symbol-flat-illustration-for-graphic-and-web-desig.jpg",
+        "credit": 6
+    },
+    {
+        "id": 6,
+        "cover": "https://i.ibb.co/HDbZZrF/Rectangle-2-5.png",
+        "title": "Software Engineering",
+        "description": "Software engineering is the branch  and maintenance of",
+        "price_img": "$",
+        "price": 6000,
+        "book_img": "https://i.ibb.co/rcRncGj/book-icon-template-black-color-editable-book-icon-symbol-flat-illustration-for-graphic-and-web-desig.jpg",
+        "credit": 1
+    },
+    {
+        "id": 7,
+        "cover": "https://i.ibb.co/4Vx7wd9/Rectangle-3-1.png",
+        "title": "AWS, Cloud Computing",
+        "description": "technology services, such as computing power",
+        "price_img": "$",
+        "price": 1400,
+        "book_img": "https://i.ibb.co/rcRncGj/book-icon-template-black-color-editable-book-icon-symbol-flat-illustration-for-graphic-and-web-desig.jpg",
+        "credit": 3
+    },
+    {
+        "id": 8,
+        "cover": "https://i.ibb.co/jMqCZnc/Rectangle-2-1.png",
+        "title": "Database (MySQL)",
+        "description": "MySQL HeatWave is a fully managed   transactions, real- time analytics",
+        "price_img": "$",
+        "price": 1000,
+        "book_img": "https://i.ibb.co/rcRncGj/book-icon-template-black-color-editable-book-icon-symbol-flat-illustration-for-graphic-and-web-desig.jpg",
+        "credit": 3
+    },
+    {
+        "id": 9,
+        "cover": "https://i.ibb.co/SfPHgpW/Rectangle-2-6.png",
+        "title": "Problem-Solving Part",
+        "description": "Problem solving is the act of defining cause of the problem;",
+        "price_img": "$",
+        "price": 1200,
+        "book_img": "https://i.ibb.co/rcRncGj/book-icon-template-black-color-editable-book-icon-symbol-flat-illustration-for-graphic-and-web-desig.jpg",
+        "credit": 2
+    }
+]
