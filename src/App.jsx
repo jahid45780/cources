@@ -78,10 +78,10 @@ function App() {
 
 
   <div className=" flex-none lg:flex gap-5">
-  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-12">
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
   <Blogs handleToAddCourse={handleToAddCourse} ></Blogs>
   </div>
- <div className="mt-10 shadow-lg ">
+ <div className="mt-10 p-3 shadow-lg ">
  <Credit creditRemaining={creditRemaining}  ></Credit>
   <Courses courses= {courses} ></Courses>
   <Credits credit={credit} ></Credits>
