@@ -9,7 +9,7 @@
  3   Data Visualization and Reporting:
         Data visualization and reporting features are valuable for projects that deal with data analysis, statistics, or tracking various metrics. Integrating charts, graphs, and interactive dashboards can help users understand and interpret data more effectively. Popular libraries like D3.js, Chart.js, or Plotly can be used to create visually appealing and informative data visualizations. This feature is useful in applications related to business intelligence, analytics, or data-driven decision-making.
 
-     2  Question Discuss how you managed the state in your assignment project.
+   <h2>    2  Question Discuss how you managed the state in your assignment project. </h2> <br>
 
         1 Local State Management:
         For small to medium-sized projects, local state management is often sufficient. In this approach, the state is stored and managed within the components or modules where it's needed. This can be achieved using variables or data structures within the component's scope.
