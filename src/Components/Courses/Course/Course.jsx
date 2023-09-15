@@ -3,7 +3,12 @@ const Course = ({course}) => {
     const {title}=course
     return (
         <div>
-            <h3 className=' text-xl' >  {title}  </h3>
+            <ol className=' list-disc list-inside'> 
+            
+              <li className=' text-xl' >  {title}  </li>
+            
+            
+                 </ol>
         </div>
     );
 };
