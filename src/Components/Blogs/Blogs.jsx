@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import { useState } from "react";
 import Blog from "../Blog/Blog";
+import PropTypes from 'prop-types'
 
-const Blogs = () => {
+const Blogs = ({handleToAddCourse}) => {
     const [blogs, setBlogs]= useState([]);
 
     useEffect(()=>{
@@ -15,10 +16,15 @@ const Blogs = () => {
         <>
             
             {
-                blogs.map(blog => <Blog key={blog.id} blog={blog} ></Blog> )
+                blogs.map(blog => <Blog key={blog.id} blog={blog} handleToAddCourse={handleToAddCourse} ></Blog> )
+                
             }
         </>
     );
 };
+
+Blogs.propTypes={
+    handleToAddCourse:PropTypes.func  
+}
 
 export default Blogs;

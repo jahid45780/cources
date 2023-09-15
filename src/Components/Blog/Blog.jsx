@@ -1,7 +1,9 @@
 import PropTypes from 'prop-types';
-const Blog = ({blog}) => {
+const Blog = ({blog,handleToAddCourse}) => {
     const {title,cover,description,price_img,price,book_img,credit}=blog;
   
+
+
     return (
         <div className='w-[312px] shadow-lg space-y-3' >
             <img className='w-full' src={cover} alt="" />
@@ -14,13 +16,16 @@ const Blog = ({blog}) => {
                 <p className=' text-1xl text-[#2a2a2a] '> Credit :  {credit} hr </p>
                 
             </div>
-            <button className=' bg-[#2F80ED] w-full h-11 rounded-md text-xl text-white ' >Select</button>
+             <button onClick={ ()=> handleToAddCourse(blog)} className=' bg-[#2F80ED] w-full h-11 rounded-md text-xl text-white ' >Select</button>
         </div>
     );
 };
 
 Blog.propTypes={
-      blog: PropTypes.object.isRequired
+      blog: PropTypes.object.isRequired,
+      handleToAddCourse:PropTypes.func
 }
+
+
 
 export default Blog;
