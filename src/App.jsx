@@ -11,8 +11,21 @@ function App() {
   const [courses,setCourses] = useState([]);
 
   const handleToAddCourse =blog=>{
-    const newCourses =[...courses,blog]
-    setCourses(newCourses)
+    const isExist = courses.find(item=>item.id==blog.id)
+    let count= 0;
+    
+    if(isExist){
+    return alert('User you have already booked it once')
+    }
+    else{
+      courses.forEach(item =>{
+           count=count+item.credit
+      })
+      const newCourses =[...courses,blog]
+      setCourses(newCourses)
+    }
+  
+    
   }
 
 
