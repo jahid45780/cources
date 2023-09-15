@@ -36,14 +36,14 @@ function App() {
     <>
     
     <Header></Header>  
-  <div className="container mx-auto">
+  <div className="container mx-auto ml-12 ">
 
 
-  <div className=" flex gap-5">
-  <div className="grid grid-cols-3 gap-3 mt-10">
+  <div className=" flex-none lg:flex gap-5">
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3 mt-12">
   <Blogs handleToAddCourse={handleToAddCourse} ></Blogs>
   </div>
- <div className="mt-10 shadow-lg">
+ <div className="mt-10 shadow-lg ">
  <Credit></Credit>
   <Courses courses= {courses} ></Courses>
   <Credits></Credits>
