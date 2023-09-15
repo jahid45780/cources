@@ -10,6 +10,7 @@ function App() {
   
   const [courses,setCourses] = useState([]);
 
+
   const handleToAddCourse =blog=>{
     const isExist = courses.find(item=>item.id==blog.id)
     let count= 0;
@@ -20,7 +21,9 @@ function App() {
     else{
       courses.forEach(item =>{
            count=count+item.credit
+        
       })
+     
       const newCourses =[...courses,blog]
       setCourses(newCourses)
     }
