@@ -10,10 +10,14 @@ function App() {
   
   const [courses,setCourses] = useState([]);
 
+  const [credit, setCredit]= useState(0)
+
+  const [creditRemaining, setCreditRemaining] =useState(20)
+  
 
   const handleToAddCourse =blog=>{
     const isExist = courses.find(item=>item.id==blog.id)
-    let count= 0;
+    let count= blog.credit;
     
     if(isExist){
     return alert('User you have already booked it once')
@@ -23,9 +27,18 @@ function App() {
            count=count+item.credit
         
       })
-     
+      if(count>20){
+        alert("Tomer 0 hoice")
+      }
+      else{
+        const totalCriditRemaining = 20-count;
+        setCreditRemaining(totalCriditRemaining)
+        setCredit(count)
+     console.log(count)
       const newCourses =[...courses,blog]
       setCourses(newCourses)
+      }
+      
     }
   
     
@@ -44,9 +57,9 @@ function App() {
   <Blogs handleToAddCourse={handleToAddCourse} ></Blogs>
   </div>
  <div className="mt-10 shadow-lg ">
- <Credit></Credit>
+ <Credit creditRemaining={creditRemaining}  ></Credit>
   <Courses courses= {courses} ></Courses>
-  <Credits></Credits>
+  <Credits credit={credit} ></Credits>
   <Price></Price>
  </div>
   </div>
